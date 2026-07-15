@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@400;600&display=swap');
+
+:root {
+  --bg-color: #f9fafb;
+  --surface-color: #ffffff;
+  --text-primary: #111827;
+  --text-secondary: #4b5563;
+  --primary-color: #3b82f6;
+  --primary-hover: #2563eb;
+  --border-color: #e5e7eb;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Open Sans', sans-serif; background-color: var(--bg-color); color: var(--text-primary); line-height: 1.6; }
+h1, h2, h3, h4 { font-family: 'Merriweather', serif; color: var(--text-primary); margin-bottom: 1rem; }
+
+.navbar { background: var(--surface-color); border-bottom: 1px solid var(--border-color); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 10; }
+.nav-brand { font-size: 1.5rem; font-weight: 700; color: var(--primary-color); text-decoration: none; display: flex; align-items: center; gap: 0.5rem; }
+.nav-links { display: flex; gap: 1rem; align-items: center; }
+
+.container { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+.card { background: var(--surface-color); padding: 2rem; border-radius: 0.5rem; border: 1px solid var(--border-color); box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+.post-card { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border-color); }
+.post-title { font-size: 1.75rem; margin-bottom: 0.5rem; }
+.post-meta { font-size: 0.875rem; color: var(--text-secondary); margin-bottom: 1rem; }
+.post-content { color: var(--text-primary); white-space: pre-wrap; }
+.post-actions { display: flex; gap: 1rem; margin-top: 1rem; }
+
+.form-group { margin-bottom: 1rem; }
+label { display: block; margin-bottom: 0.5rem; font-weight: 600; }
+input, textarea { width: 100%; padding: 0.75rem; border: 1px solid var(--border-color); border-radius: 0.375rem; font-family: inherit; }
+button { background: var(--primary-color); color: white; border: none; padding: 0.75rem 1.5rem; border-radius: 0.375rem; cursor: pointer; font-weight: 600; font-family: inherit; transition: background 0.2s; display: inline-flex; align-items: center; gap: 0.5rem; }
+button:hover { background: var(--primary-hover); }
+button.danger { background: #ef4444; }
+button.danger:hover { background: #dc2626; }
+button.secondary { background: #f3f4f6; color: var(--text-primary); border: 1px solid var(--border-color); }
+button.secondary:hover { background: #e5e7eb; }

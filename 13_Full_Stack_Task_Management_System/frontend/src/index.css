@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+  --bg-color: #f4f7fb;
+  --surface-color: #ffffff;
+  --primary: #635fc7;
+  --primary-hover: #a8a4ff;
+  --danger: #ea5555;
+  --text-dark: #000112;
+  --text-medium: #828fa3;
+  --lines: #e4ebfa;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: var(--bg-color); color: var(--text-dark); height: 100vh; overflow: hidden; }
+
+.header { background: var(--surface-color); padding: 1.5rem 2rem; border-bottom: 1px solid var(--lines); display: flex; justify-content: space-between; align-items: center; }
+.header h1 { font-size: 1.5rem; font-weight: 700; display: flex; align-items: center; gap: 0.5rem; }
+
+.board-container { display: flex; gap: 1.5rem; padding: 1.5rem; height: calc(100vh - 80px); overflow-x: auto; }
+.column { background: #e9effa; border-radius: 6px; width: 300px; min-width: 300px; padding: 1rem; display: flex; flex-direction: column; }
+.column-header { display: flex; align-items: center; gap: 0.5rem; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 2.4px; color: var(--text-medium); font-weight: 700; margin-bottom: 1.5rem; }
+.dot { width: 15px; height: 15px; border-radius: 50%; }
+
+.task-list { flex: 1; display: flex; flex-direction: column; gap: 1rem; overflow-y: auto; }
+.task-card { background: var(--surface-color); padding: 1.5rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(54, 78, 126, 0.1); cursor: grab; font-weight: 700; font-size: 0.9375rem; transition: color 0.2s; }
+.task-card:hover { color: var(--primary); }
+.task-card:active { cursor: grabbing; }
+
+.btn { background: var(--primary); color: white; border: none; padding: 0.75rem 1.5rem; border-radius: 24px; font-weight: 700; cursor: pointer; transition: background 0.2s; }
+.btn:hover { background: var(--primary-hover); }
+
+.login-container { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; }
+.login-card { background: white; padding: 2.5rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); width: 100%; max-width: 400px; }
+.login-card input { width: 100%; padding: 0.75rem; margin-bottom: 1rem; border: 1px solid var(--lines); border-radius: 4px; font-family: inherit; }
