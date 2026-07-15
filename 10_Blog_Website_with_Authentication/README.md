@@ -1,7 +1,7 @@
-# Notes Management System
+# Blog Website with Authentication
 
 ## Description
-A full-stack MERN application (MongoDB, Express, React, Node.js) for managing personal notes. Includes JWT authentication.
+A full-stack MERN application (MongoDB, Express, React, Node.js) for publishing and reading blog posts. Features robust JWT authentication and user roles.
 
 ## Project Structure
 - `/frontend` - React Vite application

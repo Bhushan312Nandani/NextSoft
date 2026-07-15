@@ -1,7 +1,7 @@
-# Notes Management System
+# Full Stack Task Management System
 
 ## Description
-A full-stack MERN application (MongoDB, Express, React, Node.js) for managing personal notes. Includes JWT authentication.
+An advanced full-stack MERN application for task management. Users can create, update, delete, and organize complex tasks securely.
 
 ## Project Structure
 - `/frontend` - React Vite application

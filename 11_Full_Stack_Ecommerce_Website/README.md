@@ -1,7 +1,7 @@
-# Notes Management System
+# Full Stack Ecommerce Website
 
 ## Description
-A full-stack MERN application (MongoDB, Express, React, Node.js) for managing personal notes. Includes JWT authentication.
+A comprehensive full-stack MERN e-commerce platform featuring product listings, a shopping cart, and mock order processing.
 
 ## Project Structure
 - `/frontend` - React Vite application

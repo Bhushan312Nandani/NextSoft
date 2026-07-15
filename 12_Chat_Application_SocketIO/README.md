@@ -1,11 +1,11 @@
-# Notes Management System
+# Chat Application with Socket.io
 
 ## Description
-A full-stack MERN application (MongoDB, Express, React, Node.js) for managing personal notes. Includes JWT authentication.
+A real-time full-stack chat application built using the MERN stack and Socket.io for instantaneous bidirectional messaging.
 
 ## Project Structure
 - `/frontend` - React Vite application
-- `/backend` - Express REST API
+- `/backend` - Express REST API and Socket.io server
 
 ## Prerequisites
 - Node.js installed

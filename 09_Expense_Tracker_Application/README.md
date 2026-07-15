@@ -1,7 +1,7 @@
-# Notes Management System
+# Expense Tracker Application
 
 ## Description
-A full-stack MERN application (MongoDB, Express, React, Node.js) for managing personal notes. Includes JWT authentication.
+A full-stack MERN application (MongoDB, Express, React, Node.js) for tracking personal finances and expenses.
 
 ## Project Structure
 - `/frontend` - React Vite application
